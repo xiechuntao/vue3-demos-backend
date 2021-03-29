@@ -1,6 +1,6 @@
 let express = require('express') // 引入express中间件
 let app = express()
-let http = require('http').Server(app) // 引入socket.io
+let http = require('http').Server(app) // 引入socket.ioß
 let io = require('socket.io')(http)
 
 
@@ -11,7 +11,7 @@ app.all('*', function (req, res, next) {
   next();
 });
 
-app.get('/', (req, res) => res.send('Hello 嘎嘎')) // 初始化进入
+app.get('/', (req, res) => res.send('Hello 嘎嘎。ßß')) // 初始化进入
 
 // app.use('/user', require('./router/user')) // 引入user路由
 
