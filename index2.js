@@ -1,6 +1,6 @@
 let express = require('express') // 引入express中间件
 let app = express()
-let http = require('http').Server(app) // 引入socket.io
+let http = require('http').Server(app) // 引入socket.io；
 let io = require('socket.io')(http)
 
 
