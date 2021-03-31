@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mysql
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\MyDrivers\DriverGenius;C:\Program Files (x86)\MyDrivers\DriverGenius\ksoft
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\admin\AppData\Local\Yarn\Cache\v6\npm-is-promise-1.0.1-31573761c057e33c2e91aab9e96da08cefbe76e5-integrity\node_modules\is-promise\.travis.yml' -> 'D:\XM\vue3-demos-backend\expressApi\node_modules\transformers\node_modules\is-promise\.travis.yml'
+
+npm manifest: 
+  {
+    "name": "expressapi",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "nodemon ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "jade": "~1.11.0",
+      "morgan": "~1.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

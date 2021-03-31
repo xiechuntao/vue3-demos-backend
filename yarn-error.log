@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\admin\AppData\Local\Yarn\Cache\v6\npm-ansi-regex-4.1.0-8b9f8f08cf1acb843756a839ca8c7e3168c51997-integrity\node_modules\ansi-regex\package.json' -> 'D:\XM\vue3-demos-backend\node_modules\ansi-align\node_modules\ansi-regex\package.json'
+
+npm manifest: 
+  {
+    "name": "vue3-demos-backend",
+    "version": "1.0.0",
+    "description": "vue3 demos backend",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "xct",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "socket.io": "^4.0.0",
+      "socket.io-client": "^4.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
