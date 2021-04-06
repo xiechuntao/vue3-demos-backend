@@ -37,7 +37,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // 接口调用
 app.use('/', indexRouter);
+// static example
 app.use('/users', usersRouter);
+// demos
 app.use('/demos1', demos1Router);
 
 // catch 404 and forward to error handler
