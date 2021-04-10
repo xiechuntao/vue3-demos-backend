@@ -9,6 +9,6 @@ var connectPool = mysql.createConnection({
     user: 'root',
     password: 'xiechuntao',
     // password: 'root',
-    database: 'vue-demos'
+    database: 'vue-gallery'
 });
 module.exports = connectPool;

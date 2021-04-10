@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 2000
+const port = 1000
 
 // 设置跨域访问
 app.all('*', function (req, res, next) {
