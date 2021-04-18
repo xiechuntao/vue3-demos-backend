@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var demos1Router = require('./routes/demos/1');
+var gallery1Router = require('./routes/gallery/1');
 
 var app = express();
 
@@ -25,6 +25,7 @@ app.all("*", function (req, res, next) {
     next();
 });
 
+ 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -39,8 +40,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 // static example
 app.use('/users', usersRouter);
-// demos
-app.use('/demos1', demos1Router);
+// gallery 1-hellowCT
+app.use('/gallery1', gallery1Router);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
